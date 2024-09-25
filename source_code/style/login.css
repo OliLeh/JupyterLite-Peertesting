@@ -1,0 +1,113 @@
+
+
+.login-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    overflow-y: scroll;
+    height: 100%;
+}
+  
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px;
+    background-color: rgb(255, 255, 255);
+    padding: 16px;
+}
+.login-form2 {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: rgb(255, 255, 255);
+}
+
+  
+.login-input {
+    line-height: 2.5rem;
+    text-align: center;
+    font-size: 1rem;
+    box-sizing: border-box;
+    margin-bottom: 0.5rem;
+    border: 0.125rem solid rgb(204, 204, 204);
+    border-radius: 4px;
+    padding: 0.25rem 0.375rem;
+    font-weight: bold;
+    min-width: 120px;
+}
+  
+.login-button {
+    font-size: 1rem;
+    border: 0px;
+    cursor: pointer;
+    background: rgb(76,175,80);
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 0.25rem 0.375rem;
+    line-height: 2.5rem;
+    min-width: 120px;
+}
+
+.login-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+.login-p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: #7f7f7f;
+}
+  
+.login-a {
+    color: rgb(76,175,80);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.inline-input {
+    display: inline-block;
+    width: auto;
+    min-width: 10px;
+    padding: 0 5px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: inherit;
+    font-family: inherit;
+    background: transparent;
+  }
+
+  .delete-button {
+    position: absolute;
+    top: 2.5px;
+    right: 2.5px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  .delete-button:hover {
+    background-color: darkred;
+  }
+
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }

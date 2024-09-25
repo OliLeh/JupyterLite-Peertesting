@@ -1,0 +1,24 @@
+{
+    "jupyter.lab.shortcuts": [],
+    "title": "@jupyterlab-examples/shout-button",
+    "description": "@jupyterlab-examples/shout-button settings.",
+    "type": "object",
+    "properties": {},
+    "additionalProperties": false,
+    "jupyter.lab.toolbars": {
+      "Cell": [
+        {
+          "name": "run-code-cell",
+          "command": "toolbar-button:run-code-cell"
+        },
+        {
+          "name": "render-markdows-cell",
+          "command": "toolbar-button:render-markdown-cell"
+        },
+        {
+          "name": "execute-and-print-button",
+          "command": "toolbar-button:execute-and-print"
+        }
+      ]
+    }
+  }
